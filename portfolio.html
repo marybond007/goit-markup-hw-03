@@ -11,10 +11,14 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
+    <header class="header-line">
       <div class="container heder-container">
         <nav class="heder-container">
           <a href="./index.html" class="logo header-logo"
@@ -33,8 +37,8 @@
       </div>
     </header>
     <main>
-      <section class="portfolio">
-        <div class="container ">
+      <section class="portfolio section">
+        <div class="container">
           <h1 class="visualy-hidden">Список сфер діяльності</h1>
           <ul class="list-quality buttom-container">
             <li><button type="button" class="button-portfolio">Усі</button></li>
@@ -43,59 +47,77 @@
             <li><button type="button" class="button-portfolio">Дизайн</button></li>
             <li><button type="button" class="button-portfolio">Маркетинг</button></li>
           </ul>
+          <h2 class="visualy-hidden">Сфери діяльності</h2>
+          <ul class="projects-title">
+            <li class="project-list">
+              <img src="./portfolio/tehnokryak.jpg" alt="Технокряк" width="370" />
+              <div class="border-card">
+                <h3 class="title">Технокряк</h3>
+                <p class="list">Веб-сайт</p>
+              </div>
+            </li>
+            <li class="project-list">
+              <img
+                src="./portfolio/goldenstar.jpg"
+                alt="Постер New Orlean vs Golden Star"
+                width="370"
+              />
+              <div class="border-card">
+                <h3 class="title">Постер New vs Golden Star</h3>
+                <p class="list">Дизайн</p>
+              </div>
+            </li>
+            <li class="project-list">
+              <img src="./portfolio/seafood.jpg" alt="Ресторан Seafood" width="370" />
+              <div class="border-card">
+                <h3 class="title">Ресторан Seafood</h3>
+                <p class="list">Додаток</p>
+              </div>
+            </li>
+            <li class="project-list">
+              <img src="./portfolio/prime.jpg" alt="Проєкт Prime" width="370" />
+              <div class="border-card">
+                <h3 class="title">Проєкт Prime</h3>
+                <p class="list">Маркетинг</p>
+              </div>
+            </li>
+            <li class="project-list">
+              <img src="./portfolio/boxes.jpg" alt="Проєкт Boxes" width="370" />
+              <div class="border-card">
+                <h3 class="title">Проєкт Boxes</h3>
+                <p class="list">Додаток</p>
+              </div>
+            </li>
+            <li class="project-list">
+              <img src="./portfolio/inspiration.jpg" alt="Inspiration has no Borders" width="370" />
+              <div class="border-card">
+                <h3 class="title">Inspiration has no Borders</h3>
+                <p class="list">Веб-сайт</p>
+              </div>
+            </li>
+            <li class="project-list">
+              <img src="./portfolio/limitededition.jpg" alt="Видання Limited Edition" width="370" />
+              <div class="border-card">
+                <h3 class="title">Видання Limited Edition</h3>
+                <p class="list">Дизайн</p>
+              </div>
+            </li>
+            <li class="project-list">
+              <img src="./portfolio/lab.jpg" alt="Проєкт LAB" width="370" />
+              <div class="border-card">
+                <h3 class="title">Проєкт LAB</h3>
+                <p class="list">Маркетинг</p>
+              </div>
+            </li>
+            <li class="project-list">
+              <img src="./portfolio/growingbusiness.jpg" alt="Growing Business" width="370" />
+              <div class="border-card">
+                <h3 class="title">Growing Business</h3>
+                <p class="list">Додаток</p>
+              </div>
+            </li>
+          </ul>
         </div>
-        <h2 class="visualy-hidden">Сфери діяльності</h2>
-        <ul class="projects-title">
-          <li class="project-list">
-            <img src="./portfolio/tehnokryak.jpg" alt="Технокряк" width="370" />
-            <h3 class="title">Технокряк</h3>
-            <p class="list">Веб-сайт</p>
-          </li>
-          <li class="project-list">
-            <img
-              src="./portfolio/goldenstar.jpg"
-              alt="Постер New Orlean vs Golden Star"
-              width="370"
-            />
-            <h3 class="title">Постер New vs Golden Star</h3>
-            <p class="list">Дизайн</p>
-          </li>
-          <li class="project-list">
-            <img src="./portfolio/seafood.jpg" alt="Ресторан Seafood" width="370" />
-            <h3 class="title">Ресторан Seafood</h3>
-            <p class="list">Додаток</p>
-          </li>
-          <li class="project-list">
-            <img src="./portfolio/prime.jpg" alt="Проєкт Prime" width="370" />
-            <h3 class="title">Проєкт Prime</h3>
-            <p class="list">Маркетинг</p>
-          </li>
-          <li class="project-list">
-            <img src="./portfolio/boxes.jpg" alt="Проєкт Boxes" width="370" />
-            <h3 class="title">Проєкт Boxes</h3>
-            <p class="list">Додаток</p>
-          </li>
-          <li class="project-list">
-            <img src="./portfolio/inspiration.jpg" alt="Inspiration has no Borders" width="370" />
-            <h3 class="title">Inspiration has no Borders</h3>
-            <p class="list">Веб-сайт</p>
-          </li>
-          <li class="project-list">
-            <img src="./portfolio/limitededition.jpg" alt="Видання Limited Edition" width="370" />
-            <h3 class="title">Видання Limited Edition</h3>
-            <p class="list">Дизайн</p>
-          </li>
-          <li class="project-list">
-            <img src="./portfolio/lab.jpg" alt="Проєкт LAB" width="370" />
-            <h3 class="title">Проєкт LAB</h3>
-            <p class="list">Маркетинг</p>
-          </li>
-          <li class="project-list">
-            <img src="./portfolio/growingbusiness.jpg" alt="Growing Business" width="370" />
-            <h3 class="title">Growing Business</h3>
-            <p class="list">Додаток</p>
-          </li>
-        </ul>
       </section>
     </main>
     <footer class="site-down">
